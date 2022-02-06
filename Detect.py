@@ -61,7 +61,7 @@ while True:
         if(i >= 2):
             pymsgbox.alert('Lebih Dari 2', timeout=1000)
 
-    cv2.imshow('Object Detection Tutorial', frame)
+    cv2.imshow('Result by Webcam', frame)
     if cv2.waitKey(2) & 0xFF == ord('q'):
         break
 cap.release()
